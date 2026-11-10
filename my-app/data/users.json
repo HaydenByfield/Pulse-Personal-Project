@@ -1,0 +1,34 @@
+[
+  {
+    "id": "6e06952c-0a06-48b5-9c26-7a36b6e37043",
+    "firstName": "Hayden",
+    "lastName": "Byfield",
+    "email": "haydenbyfield2003@gmail.com",
+    "phone": "8764952921",
+    "passwordHash": "$2b$12$ccMIqwqs2Ty60EK01nl9ruGMs4YRz8blTYSnd4YUQQrEK73WO9r0K"
+  },
+  {
+    "id": "c07713d0-5224-4552-be47-0bda55aae815",
+    "firstName": "Hayden",
+    "lastName": "Byfield",
+    "email": "haydenbyfield@yahoo.com",
+    "phone": "8764952921",
+    "passwordHash": "$2b$12$KZ473apOkOOBrlIyNhV5CuFTfTEJeXGqBAuQwA/aJ4Hg.NFmazYw."
+  },
+  {
+    "id": "fd56f986-ac1b-4170-a864-7c17bdc9554b",
+    "firstName": "James",
+    "lastName": "Brown",
+    "email": "jamesb@gmail.com",
+    "phone": "8764857234",
+    "passwordHash": "$2b$12$AqkjVrTEpx4NucO2/FgzieIJL7EQMe6GRp9tlhaoAyV7cQR/kwq9m"
+  },
+  {
+    "id": "130fd074-5514-452d-a900-9dc648c5eb43",
+    "firstName": "Jason",
+    "lastName": "Reid",
+    "email": "jasonr@gmail.com",
+    "phone": "8763427683",
+    "passwordHash": "$2b$12$eT9NbT7PJzHCoGNcYNtPquX7yVQ0p.S6HsvlDOMCtD0TMt5B7470O"
+  }
+]
