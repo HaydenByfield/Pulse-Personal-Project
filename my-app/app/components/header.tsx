@@ -41,10 +41,10 @@ export default function header() {
   return (
     <header id="itl-hdr" className=" relative z-50 flex flex1 min-w-0 justify-between items-center font-serif sm:text-sm md:text-md lg:text-lg bg-second h-20 gap-2">
       <div id="restaurant">
-        <a className="ml-4 font-script sm:text-lg md:text-xl lg:text-2xl" href="/">LE-MONTE</a>
+        <a className=" text-black ml-4 font-script sm:text-lg md:text-xl lg:text-2xl" href="/">LE-MONTE</a>
         <p></p>
       </div>
-      <nav id="navigation" className="hidden md:flex justify-around gap-5 ">
+      <nav id="navigation" className="text-black hidden md:flex justify-around gap-5 ">
         <Link href="/#story" className="hover:opacity-50">Our Story</Link>
         <Link href="/#menu" className="hover:opacity-50">Menu</Link>
         <Link href="/#experience" className="hover:opacity-50">The Experience</Link>
@@ -52,7 +52,7 @@ export default function header() {
       </nav>
 
       {isOpen && (
-        <div id="dropdown" className=" absolute right-0 top-20 bg-first w-3/8 flex flex-col shadow-lg gap-4 p-5 md:hidden">
+        <div id="dropdown" className=" absolute right-0 top-20 bg-first w-3/8 flex flex-col shadow-lg gap-4 p-5 md:hidden text-black">
           <Link href="/#story" className=" border-b-1">Our Story</Link>
           <Link href="/#menu" className="border-b-1">Menu</Link>
           <Link href="/#experience" className="border-b-1">The Experience</Link>
@@ -63,12 +63,12 @@ export default function header() {
         <div id="account" className="flex items-center ">
           <img src="/images/mini-profile-icon.png" className=" w-1/4" />
           {user ? (
-            <button className="hover:text-third" onClick={handleSignOut}>Sign Out</button>
+            <button className=" text-black hover:text-third" onClick={handleSignOut}>Sign Out</button>
           ) : (
-            <Link href={"/login"} className="hover:text-third">Sign In</Link>
+            <Link href={"/login"} className=" text-black hover:text-third">Sign In</Link>
           )}
         </div>
-        <button onClick={() => router.push("/reservation")} className=" flex-1 min-w-0 mr-4 w-30 sm:w-full p-0 md:p-2 bg-third text-background cursor-pointer hover:bg-black"> Request a Table</button>
+        <button onClick={() => router.push("/reservation")} className=" flex-1 min-w-0 mr-4 w-30 sm:w-full p-0 md:p-2 bg-third text-white cursor-pointer hover:bg-black"> Request a Table</button>
         <button className="md:hidden text-2xl " onClick={() => setIsOpen(!isOpen)}>☰</button>
       </div>
     </header>
